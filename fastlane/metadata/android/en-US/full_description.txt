@@ -1,0 +1,36 @@
+Alarmist is an alarm clock you can't sleep through. To turn the alarm off, you complete a mission first: solve math problems, walk a number of steps, or scan the barcode on your toothpaste in the bathroom.
+
+<b>Missions</b> (up to five per alarm, in the order you choose)
+<ul>
+<li>Brain: math, memory tiles, Simon, tap the numbers in order, typing a phrase</li>
+<li>Body: shake the phone, walk a number of steps, squats</li>
+<li>Get out of bed: scan a barcode or QR code, take a photo of a place you registered, tap an NFC tag</li>
+</ul>
+Try any mission from the editor before you rely on it. Opening a mission mutes the alarm for 30 seconds; stop doing it and the alarm rings again.
+
+<b>Make sure you're up</b>
+<ul>
+<li>Wake-up check: a while after you dismiss the alarm, it asks "Still awake?" and rings again if you don't answer</li>
+<li>Optional anti-cheat: keep the alarm screen in front, lock the alarm volume, and block the power menu while it rings (needs an accessibility service; off unless you turn it on)</li>
+<li>Snooze with a limit, gradual volume, vibration, 14 built-in sounds or your own</li>
+</ul>
+
+<b>Rings when it should</b>
+<ul>
+<li>Uses Android's alarm clock API, which is exempt from battery saving (Doze)</li>
+<li>Rings after a reboot even before you unlock the phone</li>
+<li>Ringing survives the app being killed</li>
+<li>A reliability check finds the settings that can stop alarms (notifications, battery optimisation, background limits) and explains how to fix them, including tips for phone makers known to kill apps</li>
+<li>Preview any alarm: it rings in 10 seconds</li>
+</ul>
+
+<b>Private by design</b>
+<ul>
+<li>No internet permission: nothing leaves your phone</li>
+<li>No ads, no tracking, no Google Play Services</li>
+<li>Back up and restore your alarms to a file you choose</li>
+</ul>
+
+Light and dark theme, Material You colours on Android 12 and later.
+
+Alarmist is free software, licensed under the GNU GPL v3 or later.

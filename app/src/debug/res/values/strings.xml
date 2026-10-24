@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug_test_alarm" translatable="false">Test alarm (next minute)</string>
+    <string name="debug_test_label" translatable="false">Test alarm</string>
+    <string name="debug_quick_test_alarm" translatable="false">Quick test alarm (1-min cycles)</string>
+    <string name="debug_quick_test_label" translatable="false">Quick test alarm</string>
+    <string name="debug_test_scheduled" translatable="false">Rings at %1$s. Lock the phone now.</string>
+    <string name="debug_tap_mission">Debug: tap</string>
+    <string name="debug_tap_summary_short">Tap a button a few times</string>
+    <string name="debug_tap_summary">Tap %1$d times</string>
+    <string name="debug_tap_button">Tap (%1$d left)</string>
+</resources>

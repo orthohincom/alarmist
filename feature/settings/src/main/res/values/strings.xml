@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_title">Settings</string>
+    <string name="set_open">Settings</string>
+    <string name="set_back">Back</string>
+
+    <string name="set_appearance">Appearance</string>
+    <string name="set_theme">Theme</string>
+    <string name="set_theme_system">System</string>
+    <string name="set_theme_light">Light</string>
+    <string name="set_theme_dark">Dark</string>
+    <string name="set_dynamic_color">Material You colours</string>
+    <string name="set_dynamic_color_detail">Colours from your wallpaper</string>
+    <string name="set_time_input">Set the alarm time with</string>
+    <string name="set_time_input_wheels">Scroll wheels</string>
+    <string name="set_time_input_dial">Clock face</string>
+
+    <string name="set_backup_header">Backup</string>
+    <string name="set_backup">Back up</string>
+    <string name="set_backup_detail">Saves your alarms, their missions and the settings to a file. Imported sounds and ringtones aren\'t in it: those alarms play their backup sound after a restore on another phone.</string>
+    <string name="set_restore">Restore</string>
+    <string name="set_restore_detail">Adds the alarms from a backup file. Your alarms stay, and ones that are already here aren\'t added twice.</string>
+
+    <plurals name="set_exported">
+        <item quantity="one">Backed up %1$d alarm</item>
+        <item quantity="other">Backed up %1$d alarms</item>
+    </plurals>
+    <plurals name="set_restored">
+        <item quantity="one">Added %1$d alarm</item>
+        <item quantity="other">Added %1$d alarms</item>
+    </plurals>
+    <plurals name="set_restored_skipped">
+        <item quantity="one">%1$d was already here</item>
+        <item quantity="other">%1$d were already here</item>
+    </plurals>
+    <plurals name="set_restored_failed">
+        <item quantity="one">%1$d couldn\'t be saved</item>
+        <item quantity="other">%1$d couldn\'t be saved</item>
+    </plurals>
+    <!-- Joins the parts of a restore result, e.g. "Added 3 alarms. 2 were already here." -->
+    <string name="set_restored_join">%1$s. %2$s</string>
+    <string name="set_failed_write">Couldn\'t write the file</string>
+    <string name="set_failed_read">Couldn\'t read the file</string>
+    <string name="set_failed_too_large">The file is too large for a backup</string>
+    <string name="set_failed_not_backup">This isn\'t an Alarmist backup</string>
+    <string name="set_failed_newer">This backup is from a newer version of Alarmist. Update the app first.</string>
+    <string name="set_failed_invalid">This backup is damaged, so nothing was restored</string>
+    <string name="set_failed_other">Something went wrong. Try again.</string>
+    <string name="set_failed_no_file_app">No app to choose a file with</string>
+</resources>

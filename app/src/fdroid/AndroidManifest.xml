@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lets the reliability check ask directly to turn off battery optimisation (Play restricts it). -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application>
+        <!-- Opt-in anti-cheat (AntiCheatConfig.powerMenuGuard). Only in this flavor: Play restricts accessibility services. -->
+        <service
+            android:name=".guard.PowerMenuGuardService"
+            android:exported="true"
+            android:label="@string/power_guard_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/power_menu_guard" />
+        </service>
+    </application>
+
+</manifest>

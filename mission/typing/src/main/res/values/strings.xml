@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="typing_name">Typing</string>
+    <string name="typing_description">Type out a phrase</string>
+    <plurals name="typing_phrases">
+        <item quantity="one">%d phrase</item>
+        <item quantity="other">%d phrases</item>
+    </plurals>
+    <!-- Alarm editor summary when the user wrote their own phrases, e.g. "2 phrases · your own". -->
+    <plurals name="typing_summary_custom">
+        <item quantity="one">%d phrase · your own</item>
+        <item quantity="other">%d phrases · your own</item>
+    </plurals>
+    <string name="typing_custom">Your own phrases</string>
+    <string name="typing_custom_help">One per line. Leave empty to use the built-in phrases.</string>
+    <string name="typing_progress">Phrase %1$d of %2$d</string>
+    <string name="typing_prompt">Type this:</string>
+    <string name="typing_input">Your typing</string>
+    <!-- Typed out on the ringing screen to dismiss the alarm. Short, plain words that are easy to type on a phone. -->
+    <string-array name="typing_phrases">
+        <item>I am awake and ready to start the day</item>
+        <item>Good morning, today is going to be a great day</item>
+        <item>The early bird catches the worm</item>
+        <item>Every morning is a fresh start</item>
+        <item>I will drink a glass of water and stretch</item>
+        <item>Small steps every day lead to big results</item>
+        <item>Rise and shine, the sun is already up</item>
+        <item>I choose to get out of bed right now</item>
+        <item>Today I will do one thing that makes me proud</item>
+        <item>Breakfast is waiting for me in the kitchen</item>
+        <item>My future self will thank me for getting up</item>
+        <item>The snooze button is not my friend</item>
+        <item>I slept well and now it is time to move</item>
+        <item>Wake up, sit up, stand up and go</item>
+        <item>The best way to start is to begin</item>
+        <item>Fresh air and daylight help me wake up</item>
+        <item>I keep my promises, including this one</item>
+        <item>A good morning makes a good day</item>
+        <item>Open the curtains and let the light in</item>
+        <item>One more minute in bed will not help</item>
+    </string-array>
+</resources>

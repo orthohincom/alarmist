@@ -1,0 +1,1 @@
+First release: alarms with missions (math, memory, Simon, tap in order, typing, shake, steps, squats, barcode, photo, NFC), wake-up check, optional anti-cheat, reliability check, backup and restore.

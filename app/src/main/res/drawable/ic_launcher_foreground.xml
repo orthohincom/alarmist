@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Alarm clock: bells, face and hands, drawn inside the 66dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M33,40 L41,32 A6,6 0 0,0 33,30 A6,6 0 0,0 31,38 Z M75,40 L67,32 A6,6 0 0,1 75,30 A6,6 0 0,1 77,38 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,32 A24,24 0 1,1 53.99,32 Z M54,37 A19,19 0 1,0 54.01,37 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,42 L56,42 L56,55 L65,62 L62.5,65 L52,57 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M38,72 L41.5,75.5 L36.5,80.5 L33,77 Z M70,72 L66.5,75.5 L71.5,80.5 L75,77 Z" />
+</vector>

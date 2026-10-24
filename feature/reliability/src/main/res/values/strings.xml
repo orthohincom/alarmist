@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rel_title">Reliability check</string>
+    <string name="rel_setup_title">Make sure alarms ring</string>
+    <string name="rel_setup_intro">Android can stop alarms from ringing or showing. Allow these, and your alarms will ring on time, even with the phone locked. Each one takes a tap.</string>
+    <string name="rel_setup_done">Done</string>
+    <string name="rel_back">Back</string>
+    <string name="rel_open">Reliability check</string>
+    <string name="rel_open_problems">Reliability check: something needs attention</string>
+    <string name="rel_ok">OK</string>
+    <string name="rel_fix">Fix</string>
+    <string name="rel_allow">Allow</string>
+
+    <string name="rel_checks_header">Settings</string>
+    <string name="rel_check_notifications">Notifications</string>
+    <string name="rel_check_notifications_why">Needed to show the alarm screen and the Snooze and Dismiss buttons.</string>
+    <string name="rel_check_full_screen">Alarm screen over other apps</string>
+    <string name="rel_check_full_screen_why">Lets the alarm fill the screen, also when the phone is locked.</string>
+    <string name="rel_check_exact">Alarms at the exact time</string>
+    <string name="rel_check_exact_why">Without it, alarms can ring minutes late.</string>
+    <string name="rel_check_background">Background use</string>
+    <string name="rel_check_background_why">Alarms can\'t start if Android restricts Alarmist in the background (App info › Battery).</string>
+    <string name="rel_check_battery">Battery optimisation off</string>
+    <string name="rel_check_battery_why">Recommended. Keeps Android from delaying or stopping Alarmist to save battery.</string>
+    <string name="rel_check_overlay">Display over other apps</string>
+    <string name="rel_check_overlay_why">Optional. Brings the wake-up check to the front while you use the phone, and lets anti-cheat bring the alarm screen back if you leave it.</string>
+
+    <string name="rel_power_header">When the phone is off</string>
+    <string name="rel_power_text">Alarms can\'t ring while the phone is switched off. Android doesn\'t let apps switch the phone on; only some phone makers\' own clock apps can. Leave the phone on overnight (airplane mode is fine). If an alarm was missed because the phone was off, Alarmist tells you when it starts again.</string>
+
+    <string name="rel_oem_header">Tips for your phone (%1$s)</string>
+    <string name="rel_oem_header_generic">Tips for your phone</string>
+    <string name="rel_oem_samsung">Samsung: open Settings › Battery (and device care) › Background usage limits. Make sure Alarmist isn\'t in Sleeping or Deep sleeping apps, and add it to Never sleeping apps. In App info › Battery, choose Unrestricted.</string>
+    <string name="rel_oem_xiaomi">Xiaomi: in App info, turn on Autostart and set Battery saver to No restrictions. Lock Alarmist in the recent apps screen (pull it down) so cleaning doesn\'t close it.</string>
+    <string name="rel_oem_huawei">Huawei/Honor: open Settings › Battery › App launch, turn off Manage automatically for Alarmist and allow all three options (auto-launch, secondary launch, run in background).</string>
+    <string name="rel_oem_oneplus">OnePlus: in App info › Battery usage, allow background activity and turn off battery optimisation. Lock Alarmist in the recent apps screen.</string>
+    <string name="rel_oem_oppo">Oppo/Realme: in App info › Battery usage, allow background activity and auto launch, and turn off Optimise battery use. Lock Alarmist in the recent apps screen.</string>
+    <string name="rel_oem_vivo">Vivo: open Settings › Battery › Background power consumption management and allow Alarmist. Turn on Autostart in i Manager.</string>
+    <string name="rel_oem_generic">Some phones close apps in the background to save battery, which can stop alarms. If an alarm is missed, look up your phone\'s settings below.</string>
+    <string name="rel_oem_app_info">Open app info</string>
+    <string name="rel_oem_more">More help (dontkillmyapp.com)</string>
+
+    <string name="rel_log_header">Recent events</string>
+    <string name="rel_log_note">Kept on this phone for 30 days. Nothing is sent anywhere.</string>
+    <string name="rel_log_empty">Nothing yet</string>
+    <string name="rel_alarm_preview">Preview</string>
+    <string name="rel_alarm_deleted">A deleted alarm</string>
+    <string name="rel_alarm_at">%1$s alarm</string>
+    <string name="rel_event_scheduled">%1$s: next ring %2$s</string>
+    <string name="rel_event_fired">%1$s rang</string>
+    <plurals name="rel_event_fired_late">
+        <item quantity="one">%1$s rang %2$d minute late</item>
+        <item quantity="other">%1$s rang %2$d minutes late</item>
+    </plurals>
+    <string name="rel_event_snoozed">%1$s snoozed</string>
+    <string name="rel_event_dismissed">%1$s dismissed</string>
+    <string name="rel_event_auto_silenced">%1$s unanswered, paused until the next ring</string>
+    <string name="rel_event_unanswered">%1$s stopped after its last unanswered ring</string>
+    <string name="rel_event_missed_phone_off">%1$s didn\'t ring at %2$s: the phone was off</string>
+    <string name="rel_event_missed_app_stopped">%1$s didn\'t ring at %2$s: Android stopped Alarmist</string>
+    <string name="rel_event_rescheduled">Alarms set again: %1$s</string>
+    <string name="rel_reason_boot">the phone restarted</string>
+    <string name="rel_reason_time">the time or time zone changed</string>
+    <string name="rel_reason_update">the app was updated</string>
+    <string name="rel_reason_permission">a permission changed</string>
+    <string name="rel_reason_start">the app started</string>
+    <string name="rel_event_ringing_fallback">%1$s rang through a notification (the alarm service couldn\'t start)</string>
+    <string name="rel_event_sound_fallback">%1$s played its backup sound (the chosen sound couldn\'t play)</string>
+    <string name="rel_event_awake">%1$s: wake-up check answered</string>
+    <string name="rel_event_not_awake">%1$s: wake-up check unanswered, rang again</string>
+</resources>

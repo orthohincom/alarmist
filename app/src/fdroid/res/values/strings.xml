@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_guard_label">Alarmist power-menu guard</string>
+    <string name="power_guard_description">Closes the power menu while an alarm that has \"Block the power menu\" turned on is ringing, so the phone can\'t be switched off to stop it. It only notices when windows open; it can\'t read what is on the screen, does nothing at other times, and Alarmist has no internet access.</string>
+</resources>

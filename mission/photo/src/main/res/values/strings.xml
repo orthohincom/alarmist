@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="photo_name">Photo</string>
+    <string name="photo_description">Photograph a place, like the bathroom sink</string>
+    <string name="photo_photo">Photo to match</string>
+    <!-- Alarm editor summary when no photo is registered. -->
+    <string name="photo_any">Any photo</string>
+    <!-- Alarm editor summary, e.g. "Photo: Bathroom sink". -->
+    <string name="photo_summary">Photo: %s</string>
+    <string name="photo_summary_unnamed">Registered photo</string>
+    <string name="photo_any_detail">Without a registered photo, taking any photo dismisses the alarm. Register one of a place away from your bed, for example the bathroom sink, so you have to get up and go there.</string>
+    <string name="photo_register">Register a photo</string>
+    <string name="photo_register_prompt">Point the camera at a place away from your bed with a few objects in view. A bare wall or tiles can\'t be recognised. The photo stays on this phone.</string>
+    <string name="photo_too_plain">Too little detail to recognise this later. Try a view with more objects, or turn on the light.</string>
+    <string name="photo_take">Take photo</string>
+    <string name="photo_registered">The registered photo</string>
+    <string name="photo_name_label">Name (optional)</string>
+    <string name="photo_name_hint">e.g. Bathroom sink</string>
+    <string name="photo_retake">Take another</string>
+    <string name="photo_use_any">Use any photo</string>
+    <string name="photo_level">How closely it must match</string>
+    <string name="photo_level_easy">Loosely</string>
+    <string name="photo_level_easy_detail">Matches from farther away or in dim light</string>
+    <string name="photo_level_normal">Normal</string>
+    <string name="photo_level_strict">Closely</string>
+    <string name="photo_level_strict_detail">Stand where you took it, with the light on</string>
+    <string name="photo_prompt">Find this view</string>
+    <string name="photo_prompt_any">Take a photo of anything</string>
+    <string name="photo_hint">Stand where you took the photo and point the camera the same way.</string>
+    <string name="photo_dark">Too dark: turn on the light or the flashlight.</string>
+    <string name="photo_correct">Correct!</string>
+    <string name="photo_camera_needed">This mission needs the camera to compare what it sees with your photo. Only the registered photo is saved, on this phone.</string>
+</resources>

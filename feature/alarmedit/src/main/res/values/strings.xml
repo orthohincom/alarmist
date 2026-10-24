@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_title_new">New alarm</string>
+    <string name="edit_title">Edit alarm</string>
+    <string name="edit_close">Close without saving</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_rings_once">Rings once</string>
+    <string name="edit_repeat">Repeats</string>
+    <string name="edit_daily">Daily</string>
+    <string name="edit_hour">Hour</string>
+    <string name="edit_minute">Minute</string>
+    <string name="edit_am_pm">AM or PM</string>
+    <string name="edit_hint">About %1$s</string>
+    <string name="edit_ok">OK</string>
+    <!-- Two setting values on one row, e.g. "5 minutes, 3 times". -->
+    <string name="edit_two_values">%1$s, %2$s</string>
+    <string name="edit_never_rings">Won\'t ring</string>
+    <string name="edit_label">Label</string>
+    <string name="edit_sound_header">Sound</string>
+    <string name="edit_volume">Volume</string>
+    <string name="edit_volume_percent">%1$d%%</string>
+    <string name="edit_vibrate_only">Vibrate only</string>
+    <string name="edit_vibrate">Vibrate</string>
+    <string name="edit_ramp">Gradual volume</string>
+    <string name="edit_off">Off</string>
+    <string name="edit_snooze_header">Snooze</string>
+    <string name="edit_snooze_card">Snooze and stop</string>
+    <string name="edit_snooze">Allow snooze</string>
+    <string name="edit_snooze_length">Snooze length</string>
+    <string name="edit_snooze_max">Snoozes per alarm</string>
+    <string name="edit_unlimited">Unlimited</string>
+    <plurals name="edit_times">
+        <item quantity="one">%1$d time</item>
+        <item quantity="other">%1$d times</item>
+    </plurals>
+    <string name="edit_auto_silence">Stop if unanswered</string>
+    <string name="edit_auto_silence_on">Rings %1$d min, then pauses %2$d min. Stops after %3$d rings and shows a missed alarm.</string>
+    <string name="edit_check_header">Wake-up check</string>
+    <!-- %1$s: a duration, e.g. "5 minutes". -->
+    <string name="edit_check_value">After %1$s</string>
+    <string name="edit_check">Check that I\'m awake</string>
+    <string name="edit_check_summary">After dismissing, asks \"Still awake?\". No answer and the alarm rings again.</string>
+    <string name="edit_check_delay">Ask after</string>
+    <string name="edit_check_response">Time to answer</string>
+    <string name="edit_anti_cheat_header">Anti-cheat</string>
+    <string name="edit_relaunch">Keep the alarm screen in front</string>
+    <string name="edit_relaunch_summary">Leaving it (home, another app) brings it back while it rings</string>
+    <string name="edit_relaunch_needs_overlay">Needs \"Display over other apps\" to bring the screen back</string>
+    <string name="edit_allow_overlay">Allow display over other apps</string>
+    <string name="edit_lock_volume">Lock the alarm volume</string>
+    <string name="edit_lock_volume_summary">Volume keys do nothing while it rings; a lowered volume goes back up</string>
+    <string name="edit_power_guard">Block the power menu</string>
+    <string name="edit_power_guard_summary">Closes the power menu while it rings, so the phone can\'t be switched off</string>
+    <string name="edit_power_guard_off">The accessibility service is off: it won\'t work until you turn it on</string>
+    <string name="edit_power_guard_turn_on">Turn on the power-menu guard</string>
+    <string name="edit_power_guard_disclosure_title">Uses an accessibility service</string>
+    <string name="edit_power_guard_disclosure">To close the power menu, Alarmist needs its \"power-menu guard\" accessibility service. It only notices when a window opens, can\'t read what is on the screen, and acts only while an alarm with this option rings. Alarmist has no internet access, so nothing leaves the phone.\n\nIn the next screen, open \"Alarmist power-menu guard\" and turn it on. Some phones first ask you to allow restricted settings in the app info.</string>
+    <string name="edit_power_guard_open_settings">Open settings</string>
+    <string name="edit_preview">Preview (rings in 10 seconds)</string>
+    <string name="edit_preview_set">Preview rings in 10 seconds. Lock the phone to see the alarm screen.</string>
+    <string name="edit_delete">Delete alarm</string>
+    <string name="edit_delete_confirm">Delete this alarm?</string>
+    <string name="edit_delete_yes">Delete</string>
+    <string name="edit_cancel">Cancel</string>
+    <string name="edit_sound">Alarm sound</string>
+    <string name="edit_sound_missing">Sound not found, the backup sound plays</string>
+
+    <string name="edit_missions_header">Missions</string>
+    <string name="edit_wake_up_header">Wake-up</string>
+    <!-- Missions set out of the maximum, e.g. "1/5". -->
+    <string name="edit_missions_count">%1$d/%2$d</string>
+    <string name="edit_missions_hint">To dismiss the alarm, finish every mission, from left to right. Tap a mission to change or remove it.</string>
+    <!-- Screen reader text for a mission slot: "1. Math: Hard · 3 problems". -->
+    <string name="edit_mission_slot">%1$d. %2$s: %3$s</string>
+    <string name="edit_category_brain">Wake your brain</string>
+    <string name="edit_category_body">Wake your body</string>
+    <string name="edit_category_get_up">Get out of bed</string>
+    <string name="edit_category_other">More</string>
+    <string name="edit_missions_none">None: Dismiss stops the alarm</string>
+    <string name="edit_mission_add">Add a mission</string>
+    <string name="edit_mission_choose">Choose a mission</string>
+    <string name="edit_mission_unavailable">Not available on this phone</string>
+    <string name="edit_mission_missing">Not available in this version of the app</string>
+    <string name="edit_mission_remove">Remove %1$s</string>
+    <string name="edit_mission_save">Save</string>
+    <string name="edit_mission_add_confirm">Add</string>
+    <string name="edit_mission_try">Try it</string>
+    <string name="edit_mission_solved">Solved</string>
+    <string name="edit_mission_close">Close</string>
+
+    <string name="picker_title">Alarm sound</string>
+    <string name="picker_close">Close</string>
+    <string name="picker_my_sounds">My sounds</string>
+    <string name="picker_my_sounds_note">Kept in the app, so they play even before you unlock after a restart</string>
+    <string name="picker_import">Import a sound file</string>
+    <string name="picker_device">Device sounds</string>
+    <string name="picker_device_note">May not play before you unlock after a restart. %1$s plays then.</string>
+    <string name="picker_loading">Loading…</string>
+    <string name="picker_no_device">No device sounds found</string>
+    <string name="picker_playing">Playing</string>
+    <string name="picker_delete">Delete %1$s</string>
+    <string name="picker_delete_confirm">Delete “%1$s”? Alarms that use it will play their backup sound.</string>
+    <string name="picker_delete_yes">Delete</string>
+    <string name="picker_import_too_large">That file is too big (the limit is %1$d MB)</string>
+    <string name="picker_import_not_audio">That file isn\'t a sound Android can play</string>
+    <string name="picker_import_failed">Couldn\'t import that file</string>
+</resources>

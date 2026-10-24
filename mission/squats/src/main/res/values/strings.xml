@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="squats_name">Squats</string>
+    <string name="squats_description">Do squats holding the phone (easier to cheat)</string>
+    <string name="squats_cheat_note">Easier to cheat than other missions: moving the phone down and back up counts as a squat, even without bending your knees. To be sure you get up, add a barcode, photo or NFC mission after it.</string>
+    <!-- Editor slider title and alarm editor summary, e.g. "10 squats". -->
+    <plurals name="squats_count">
+        <item quantity="one">%d squat</item>
+        <item quantity="other">%d squats</item>
+    </plurals>
+    <string name="squats_prompt">Do squats</string>
+    <plurals name="squats_left">
+        <item quantity="one">%d squat to go</item>
+        <item quantity="other">%d squats to go</item>
+    </plurals>
+    <string name="squats_hint">Hold your phone at your chest and go all the way down and back up.</string>
+</resources>

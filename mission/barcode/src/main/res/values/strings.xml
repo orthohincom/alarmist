@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="barcode_name">Barcode / QR</string>
+    <string name="barcode_description">Scan a barcode or QR code</string>
+    <string name="barcode_code">Code to scan</string>
+    <!-- Alarm editor summary when no code is registered. -->
+    <string name="barcode_any">Any barcode or QR code</string>
+    <!-- Alarm editor summary, e.g. "Scan: Toothpaste" or "Scan: QR code". -->
+    <string name="barcode_summary">Scan: %s</string>
+    <string name="barcode_any_detail">Any barcode or QR code dismisses the alarm. Register one so only that code does, for example a product in the bathroom.</string>
+    <string name="barcode_register">Register a code</string>
+    <string name="barcode_register_prompt">Point the camera at the barcode or QR code to register.</string>
+    <!-- %s is barcode_qr or barcode_barcode. -->
+    <string name="barcode_registered">Registered: %s</string>
+    <string name="barcode_qr">QR code</string>
+    <string name="barcode_barcode">Barcode</string>
+    <string name="barcode_name_label">Name (optional)</string>
+    <string name="barcode_name_hint">e.g. Toothpaste in the bathroom</string>
+    <string name="barcode_rescan">Scan another</string>
+    <string name="barcode_use_any">Use any code</string>
+    <string name="barcode_prompt">Scan the registered code</string>
+    <string name="barcode_prompt_any">Scan any barcode or QR code</string>
+    <string name="barcode_correct">Correct!</string>
+    <string name="barcode_wrong">That\'s not the registered code</string>
+    <string name="barcode_camera_needed">This mission needs the camera to read codes. Pictures are never saved.</string>
+</resources>

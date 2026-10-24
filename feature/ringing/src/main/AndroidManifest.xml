@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!--
+            Opened by the ringing notification's full-screen intent. Its own task, out of recents, so it never
+            mixes with the main UI. directBootAware: shows before the first unlock after a reboot.
+        -->
+        <activity
+            android:name=".RingingActivity"
+            android:directBootAware="true"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AlarmistRinging">
+            <intent-filter>
+                <action android:name="com.orthohin.alarmist.action.SHOW_RINGING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

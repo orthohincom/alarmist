@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A normal permission: granted at install, nothing to ask. -->
+    <uses-permission android:name="android.permission.NFC" />
+
+    <!-- NFC is optional: without this, the permission makes stores hide the app on phones without it. -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+</manifest>

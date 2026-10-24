@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ringing_channel">Ringing alarms</string>
+    <string name="ringing_fallback_channel">Ringing alarms (backup)</string>
+    <string name="ringing_fallback_channel_description">Used only if an alarm can\'t start its sound normally</string>
+    <string name="snoozed_channel">Snoozed alarms</string>
+    <string name="alarm_default_title">Alarm</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="missed_channel">Missed alarms</string>
+    <string name="missed_at">Missed: nobody answered the %1$s alarm</string>
+    <string name="missed_phone_off">Didn\'t ring at %1$s: the phone was off</string>
+    <string name="missed_app_stopped">Didn\'t ring at %1$s: Android stopped Alarmist. Tap to check your settings.</string>
+    <string name="snoozed_until">Snoozed until %1$s</string>
+    <string name="check_channel">Wake-up checks</string>
+    <string name="check_at">Wake-up check at %1$s</string>
+    <string name="check_title">Still awake?</string>
+    <string name="check_text">Answer, or the alarm rings again</string>
+    <string name="check_text_label">Answer, or \"%1$s\" rings again</string>
+    <string name="action_awake">I\'m awake</string>
+</resources>

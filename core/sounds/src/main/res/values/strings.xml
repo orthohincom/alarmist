@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sounds_category_classic">Classic</string>
+    <string name="sounds_category_gentle">Gentle</string>
+    <string name="sounds_category_loud">Loud</string>
+    <string name="sounds_category_nature">Nature</string>
+
+    <string name="sounds_default">Beeps</string>
+    <string name="sounds_digital">Digital watch</string>
+    <string name="sounds_alarm_clock">Alarm clock bell</string>
+    <string name="sounds_telephone">Old telephone</string>
+    <string name="sounds_chimes">Wind chimes</string>
+    <string name="sounds_music_box">Music box</string>
+    <string name="sounds_marimba">Marimba</string>
+    <string name="sounds_sunrise">Sunrise</string>
+    <string name="sounds_siren">Siren</string>
+    <string name="sounds_buzzer">Buzzer</string>
+    <string name="sounds_klaxon">Klaxon</string>
+    <string name="sounds_pulse">Fast beeps</string>
+    <string name="sounds_birds">Birds</string>
+    <string name="sounds_brook">Brook</string>
+</resources>

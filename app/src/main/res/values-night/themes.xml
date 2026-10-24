@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark window while the app starts in dark mode. -->
+    <style name="Theme.Alarmist" parent="android:Theme.Material.NoActionBar" />
+</resources>

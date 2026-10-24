@@ -1,0 +1,11 @@
+name: Idea or feature request
+description: A new mission, an improvement, anything.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like, and what would it help with?
+    validations:
+      required: true

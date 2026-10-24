@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="taporder_name">Tap in order</string>
+    <string name="taporder_description">Tap the numbers in order</string>
+    <plurals name="taporder_count">
+        <item quantity="one">%d number</item>
+        <item quantity="other">%d numbers</item>
+    </plurals>
+    <plurals name="taporder_rounds">
+        <item quantity="one">%d round</item>
+        <item quantity="other">%d rounds</item>
+    </plurals>
+    <!-- Alarm editor summary, e.g. "10 numbers · 2 rounds". %1$s is taporder_count. -->
+    <plurals name="taporder_summary">
+        <item quantity="one">%1$s · %2$d round</item>
+        <item quantity="other">%1$s · %2$d rounds</item>
+    </plurals>
+    <string name="taporder_round">Round %1$d of %2$d</string>
+    <string name="taporder_prompt">Tap 1 to %d in order</string>
+    <string name="taporder_next">Next: %d</string>
+    <string name="taporder_correct">Correct!</string>
+</resources>

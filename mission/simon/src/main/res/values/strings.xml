@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="simon_name">Simon</string>
+    <string name="simon_description">Repeat a sequence of flashes</string>
+    <!-- The longest pattern the user repeats, e.g. "Up to 6 flashes". -->
+    <plurals name="simon_length">
+        <item quantity="one">Up to %d flash</item>
+        <item quantity="other">Up to %d flashes</item>
+    </plurals>
+    <string name="simon_speed">Speed</string>
+    <string name="simon_slow">Slow</string>
+    <string name="simon_normal">Normal</string>
+    <string name="simon_fast">Fast</string>
+    <!-- Alarm editor summary, e.g. "Normal · up to 6 flashes". -->
+    <plurals name="simon_summary">
+        <item quantity="one">%1$s · up to %2$d flash</item>
+        <item quantity="other">%1$s · up to %2$d flashes</item>
+    </plurals>
+    <string name="simon_pattern">Pattern %1$d of %2$d</string>
+    <string name="simon_watch">Watch the pads</string>
+    <string name="simon_repeat">Repeat the pattern</string>
+    <!-- While repeating, e.g. "2 of 5". -->
+    <string name="simon_progress">%1$d of %2$d</string>
+    <string name="simon_correct">Correct!</string>
+    <string name="simon_wrong">Wrong pad. Here comes a new pattern.</string>
+    <string name="simon_green">Green pad</string>
+    <string name="simon_red">Red pad</string>
+    <string name="simon_yellow">Yellow pad</string>
+    <string name="simon_blue">Blue pad</string>
+</resources>

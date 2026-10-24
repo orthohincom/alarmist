@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nfc_name">NFC tag</string>
+    <string name="nfc_description">Touch an NFC tag with the phone</string>
+    <string name="nfc_tag">Tag to scan</string>
+    <!-- Alarm editor summary when no tag is registered. -->
+    <string name="nfc_any">Any NFC tag</string>
+    <!-- Alarm editor summary, e.g. "Tag: Bathroom mirror". -->
+    <string name="nfc_summary">Tag: %s</string>
+    <string name="nfc_summary_unnamed">Registered NFC tag</string>
+    <string name="nfc_any_detail">Any NFC tag dismisses the alarm. Register one, for example a sticker on the bathroom mirror, so only that tag does.</string>
+    <string name="nfc_register">Register a tag</string>
+    <string name="nfc_hold">Hold the back of your phone against the tag.</string>
+    <string name="nfc_again">Got it. Take the phone away, then hold it to the tag again to confirm.</string>
+    <string name="nfc_random">This tag gives a different ID each time (bank cards and phones do), so it can\'t be recognised. Use a plain NFC sticker or key fob.</string>
+    <!-- %s is the tag's ID in hex. -->
+    <string name="nfc_registered">Registered tag: %s</string>
+    <string name="nfc_name_label">Name (optional)</string>
+    <string name="nfc_name_hint">e.g. Sticker on the bathroom mirror</string>
+    <string name="nfc_reregister">Register another</string>
+    <string name="nfc_use_any">Use any tag</string>
+    <string name="nfc_cancel">Cancel</string>
+    <string name="nfc_off">NFC is off. Turn it on, or the alarm will let you skip this mission.</string>
+    <string name="nfc_settings">NFC settings</string>
+    <string name="nfc_prompt">Scan the registered tag</string>
+    <string name="nfc_prompt_any">Scan any NFC tag</string>
+    <string name="nfc_locked">Nothing happens? Some phones read tags only when unlocked.</string>
+    <string name="nfc_unlock">Unlock</string>
+    <string name="nfc_off_now">NFC is off: turn it on in the quick settings.</string>
+    <string name="nfc_correct">Correct!</string>
+    <string name="nfc_wrong">That\'s not the registered tag</string>
+</resources>

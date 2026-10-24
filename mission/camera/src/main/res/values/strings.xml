@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera_torch">Flashlight</string>
+    <string name="camera_allow">Allow camera</string>
+    <string name="camera_settings">Open app settings</string>
+    <string name="camera_close">Close</string>
+</resources>

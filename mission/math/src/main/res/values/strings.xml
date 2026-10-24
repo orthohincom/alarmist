@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="math_name">Math</string>
+    <string name="math_description">Solve math problems</string>
+    <string name="math_difficulty">Difficulty</string>
+    <string name="math_very_easy">Very easy</string>
+    <string name="math_easy">Easy</string>
+    <string name="math_normal">Normal</string>
+    <string name="math_hard">Hard</string>
+    <string name="math_very_hard">Very hard</string>
+    <plurals name="math_problems">
+        <item quantity="one">%d problem</item>
+        <item quantity="other">%d problems</item>
+    </plurals>
+    <!-- Alarm editor summary, e.g. "Normal · 3 problems". -->
+    <plurals name="math_summary">
+        <item quantity="one">%1$s · %2$d problem</item>
+        <item quantity="other">%1$s · %2$d problems</item>
+    </plurals>
+    <string name="math_progress">Problem %1$d of %2$d</string>
+    <string name="math_wrong">Not quite. Try again.</string>
+    <string name="math_answer">Your answer</string>
+    <string name="math_delete">Delete</string>
+    <string name="math_check">Check</string>
+</resources>

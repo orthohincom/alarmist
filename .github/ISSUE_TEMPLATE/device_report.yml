@@ -1,0 +1,25 @@
+name: Tested on my phone
+description: Tell us how Alarmist worked on your phone, good or bad (see docs/TESTING.md).
+labels: [device report]
+body:
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      description: Maker, model and Android version.
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked
+      description: e.g. rang on time overnight, rang after a reboot before unlocking, steps counted well.
+  - type: textarea
+    id: problems
+    attributes:
+      label: What didn't, or felt wrong
+  - type: textarea
+    id: missions
+    attributes:
+      label: Missions you tried
+      description: Too easy, too hard, unclear, or not counting?

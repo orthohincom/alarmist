@@ -1,0 +1,39 @@
+name: Bug report
+description: Something doesn't work, or an alarm didn't ring as expected.
+labels: [bug]
+body:
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      description: Maker, model and Android version.
+      placeholder: e.g. Samsung Galaxy A52, Android 14
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Alarmist version
+      description: Shown in Android's App info for Alarmist; also say where you got it (built yourself, a release, F-Droid).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Event log or logs
+      description: >
+        If an alarm didn't ring or rang late: the event log at the bottom of the reliability check (shield icon on
+        the alarm list). If you have adb: `adb logcat -s Alarmist`.
+      render: text
+  - type: checkboxes
+    id: battery
+    attributes:
+      label: Phone settings
+      options:
+        - label: Battery optimisation is off for Alarmist
+        - label: The reliability check shows no problems

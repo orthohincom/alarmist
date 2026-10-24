@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list_title">Alarms</string>
+    <string name="list_add">Add alarm</string>
+    <string name="list_empty">No alarms yet. Tap + to add one.</string>
+    <string name="list_next">Next alarm in %1$s</string>
+    <string name="list_none_on">No alarms on</string>
+    <string name="list_once">Once</string>
+    <string name="list_every_day">Every day</string>
+    <string name="list_skipping">Skipping %1$s</string>
+    <string name="list_undo">Undo</string>
+    <string name="list_turned_off">Alarm off</string>
+    <string name="list_skip_instead">Skip once instead</string>
+    <string name="list_skipped">Skipping %1$s. Rings again after that.</string>
+    <string name="list_overlay_title">Let alarms come to the front</string>
+    <string name="list_overlay_text">Allow \"Display over other apps\" so the wake-up check shows while you use the phone, and anti-cheat can bring the alarm screen back if you leave it.</string>
+    <string name="list_overlay_allow">Allow</string>
+    <string name="list_overlay_dismiss">Don\'t show again</string>
+</resources>

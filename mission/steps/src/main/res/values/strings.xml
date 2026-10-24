@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="steps_name">Steps</string>
+    <string name="steps_description">Walk a number of steps (easier to cheat)</string>
+    <string name="steps_cheat_note">Easier to cheat than other missions: it counts real walking even when it\'s gentle, so moving the phone up and down in your hand can count too. To be sure you get up, add a barcode, photo or NFC mission after it.</string>
+    <plurals name="steps_count">
+        <item quantity="one">%d step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+    <string name="steps_prompt">Get up and walk</string>
+    <string name="steps_hint">Hold your phone in your hand and walk.</string>
+    <string name="steps_shaking">That looks like shaking. Walk with the phone in your hand.</string>
+    <plurals name="steps_left">
+        <item quantity="one">%d step to go</item>
+        <item quantity="other">%d steps to go</item>
+    </plurals>
+</resources>
